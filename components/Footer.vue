@@ -1,7 +1,7 @@
 <template>
   <div class="layout-bottom">
     <div class="container has-text-centered">
-      <p>Markers: {{ sheetData.rows.length }}</p>
+      <p>Marcadores: {{ sheetData.rows.length }}</p>
     </div>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 .layout-bottom {
-  background-color: #4319b6;
+  background-color: $primary;
   padding: 3px;
   font-size: 0.8rem;
   color: #fff;

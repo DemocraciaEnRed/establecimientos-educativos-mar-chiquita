@@ -2,10 +2,11 @@
   <div class="layout-top">
     <div class="top-container">
       <div class="icon-container">
-        <nuxt-link to="/">
-          <img src="~/assets/dos-logo.svg" class="dos-icon" alt>
+        <nuxt-link to="/" class="has-text-white">
+          <!-- <img src="~/assets/dos-logo.svg" class="dos-icon" alt> -->
+          <!-- <img src="~/assets/der-logo-white.svg" class="der-icon" alt> -->
+          <i class="fas fa-seedling fa-lg" />
         </nuxt-link>
-        <!-- <img src="~/assets/der-logo-white-alt.svg" class="der-icon" alt> -->
       </div>
       <div class="text-container">
         <p class="has-text-right is-size-7">
@@ -34,7 +35,7 @@ export default {
 
 <style lang="scss" scoped>
 .layout-top {
-  background-color: #4319b6;
+  background-color: $primary;
   padding: 10px;
   color: #fff;
   order: 0;

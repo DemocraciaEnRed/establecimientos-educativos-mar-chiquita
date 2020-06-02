@@ -6,11 +6,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Google Sheet + Mapbox Mapper - DemocraciaOS',
+    title: 'Establecimientos Educativos en Mar Chiquita - Sheet Mapper by DemocraciaOS',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Mapa de Establecimientos Educativos en Mar Chiquita donde esta prohibido el uso de fitosanitarios, hecho con la tecnologia de DemocraciaOS por Democracia en Red' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
@@ -45,6 +45,14 @@ module.exports = {
     // { src: '@/assets/scss/buefy-overrides.scss', lang: 'sass' }
   ],
   /*
+  ** @nuxtjs/style-resources
+  */
+  styleResources: {
+    scss: [
+      'assets/scss/_variables.scss'
+    ]
+  },
+  /*
   ** Plugins to load before mounting the App
   */
   plugins: [
@@ -67,6 +75,7 @@ module.exports = {
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    '@nuxtjs/style-resources',
     ['nuxt-env', {
       keys: [
         { key: 'BASE_URL', name: 'baseUrl' },
