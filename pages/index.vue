@@ -13,7 +13,7 @@
             </h1>
             <br>
             <div class="buttons is-centered is-marginless">
-              <button class="button is-link is-medium" :class="{'is-loading': isLoading}" @click="goToMap">
+              <button class="button is-white is-outlined is-medium" :class="{'is-loading': isLoading}" @click="goToMap">
                 ¡Ir al mapa!&nbsp;<i class="fas fa-map-marked" />
               </button>
             </div>

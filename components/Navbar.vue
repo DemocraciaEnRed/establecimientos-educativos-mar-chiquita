@@ -40,6 +40,7 @@ export default {
   color: #fff;
   order: 0;
   flex: 0 1 auto;
+  border-bottom: 1px solid #FFF;
 }
 .dos-icon {
   width: auto;

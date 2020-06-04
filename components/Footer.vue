@@ -25,5 +25,6 @@ export default {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
+  border-top: 1px solid #FFF;
 }
 </style>
